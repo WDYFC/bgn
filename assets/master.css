@@ -1,0 +1,123 @@
+/* THE SYNTAX :  ديكلاراصيون 
+selector {
+    property:value; خاصية معينة 
+}
+*/
+body {
+    display: grid;
+    place-items: center;
+    background: linear-gradient(45deg, black, transparent);
+    overflow-x: hidden;
+    text-shadow: 3px 3px black;
+    font-family: cursive;
+    text-decoration: none;
+
+}
+
+.f {
+    color: white;
+    border: 14px gray double;
+    background: radial-gradient(white, purple);
+    border-radius: 61px;
+    padding: 0 70px;
+    margin: 10px 20px;
+    text-align: center;
+    position: relative;
+    top: -6px;
+    left: -273px;
+}
+
+
+.m,
+.g {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: -8px 15px;
+    padding: 28px 50px;
+    color: white;
+    width: 49%;
+    border: gray dotted;
+    font-style: italic;
+    position: relative;
+    top: -317px;
+    right: 200px;
+}
+
+
+
+h3 {
+    padding: 5px 10px;
+}
+
+p {
+    width: 90%;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+img {
+    padding-bottom: 50px;
+}
+
+.s {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 23px 36px;
+    padding: 6px 15px;
+    color: white;
+    width: 26%;
+    height: fit-content;
+    border: gray double;
+    border-radius: 0px;
+    font-style: italic;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+}
+
+footer {
+    color: gray;
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 23px 36px;
+    padding: 6px 15px;
+    color: white;
+    width: 26%;
+    height: fit-content;
+    border: gray double;
+    border-radius: 0px;
+    font-style: italic;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    position: relative;
+    top: -133px;
+    left: 330px;
+}
+
+.g form,
+.m form {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 23px 36px;
+    padding: 6px 15px;
+    color: white;
+    width: 26%;
+    height: fit-content;
+    border: gray double;
+    border-radius: 0px;
+    font-style: italic;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    position: relative;
+    top: -98px;
+    left: 413px;
+}

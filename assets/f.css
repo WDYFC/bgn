@@ -1,0 +1,68 @@
+body {
+    box-sizing: border-box;
+    background-color: #333;
+}
+
+.h,
+.n,
+.s,
+.c,
+.f {
+    background-color: #ccc;
+    color: white;
+    text-align: center;
+}
+
+.parent {
+    display: grid;
+    position: relative;
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-areas:
+        "head head head head head "
+        " sb sb nav nav nav"
+        "sb sb cont cont cont"
+        "sb sb cont cont cont"
+        "sb sb cont cont cont"
+        "foot foot foot foot foot"
+    ;
+    gap: 10px;
+
+}
+
+.h {
+    width: 100px;
+    position: relative;
+    grid-area: head;
+    background-color: blueviolet;
+
+}
+
+.n {
+    grid-area: nav;
+}
+
+.s {
+    grid-area: sb;
+}
+
+.c {
+    grid-area: cont;
+}
+
+.f {
+    grid-area: foot;
+}
+
+.parent :hover {
+    transform: scale(20deg);
+}
+
+@keyframes ch-color {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}
