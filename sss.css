@@ -3,4 +3,5 @@ body {
     background-color: azure;
     height: 1px;
     left: 50px;
+    align-self: start;
 }
