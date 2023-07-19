@@ -1,0 +1,159 @@
+.layout {
+    box-sizing: content-box;
+    width: 650px;
+    height: 650px;
+    padding: 10px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) 30px repeat(5, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    position: relative;
+}
+
+.layout div {
+    background-color: black;
+    padding: 40px;
+}
+
+.e {
+    grid-area: 2/1/11/1;
+
+}
+
+.t {
+    grid-area: 2/2/2/6;
+}
+
+.l {
+    grid-area: 6/2/6/6;
+
+}
+
+.v {
+    grid-area: 10/2/10/6;
+}
+
+.l1 {
+    grid-area: 2/7/11/7;
+}
+
+.l2 {
+    grid-area: 10/8/10/12;
+}
+
+.t::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    position: absolute;
+    top: 75px;
+    left: 258px;
+    animation-name: fm;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+
+}
+
+.l2::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    position: absolute;
+    bottom: 75px;
+    right: 20px;
+    animation-name: scm;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+    opacity: 0;
+}
+
+@keyframes fm {
+    0% {
+        top: 75px;
+        left: 250px;
+    }
+
+    10% {
+        top: 75px;
+        left: 15px;
+    }
+
+    20% {
+        top: 320px;
+        left: 15px;
+    }
+
+    30% {
+        left: 250px;
+        top: 320px;
+    }
+
+    40% {
+        left: 15px;
+        top: 320px;
+
+    }
+
+    60% {
+        left: 15px;
+        top: 550px;
+
+    }
+
+    70% {
+        left: 258px;
+        top: 550px;
+    }
+
+    80% {
+        left: 15px;
+        top: 550px;
+    }
+
+    90% {
+        left: 15px;
+        top: 70px;
+    }
+
+    100% {
+        top: 75px;
+        left: 250px;
+    }
+
+}
+
+@keyframes scm {
+    0% {
+        bottom: 75px;
+        right: 20px;
+        opacity: 0;
+    }
+
+    10% {
+        bottom: 75px;
+        right: 20px;
+        opacity: 1;
+    }
+
+    30% {
+        bottom: 75px;
+        right: 260px;
+
+    }
+
+    60% {
+        bottom: 550px;
+        right: 260px;
+        opacity: 1;
+    }
+
+    100% {
+        bottom: 550px;
+        right: 260px;
+
+    }
+
+}
