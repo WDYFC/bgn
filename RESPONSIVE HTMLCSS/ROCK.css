@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;0,800;0,900;1,100;1,200;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    box-shadow: -20px 3px 20px 0px #dc1439;
+}
+
+
+
+
+
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: crimson;
+    letter-spacing: 13px;
+    font-weight: 400;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    color: crimson;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.5s ease-out;
+    padding-left: 30px;
+}
+
+
+
+.navigation a:hover {
+    color: blueviolet;
+    transform: scale(0.5);
+
+}
+
+section {
+    padding: 100px 83px;
+    background: black;
+    box-shadow: -15px -18px 20px 2px #dc1439;
+}
+
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(rr.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: white;
+    font-size: 6.4em;
+    font-weight: 500;
+
+}
+
+.main h2 span {
+    color: crimson;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+
+.main h3 {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    margin-bottom: 107px;
+
+}
+
+.mainbutton {
+    color: white;
+    text-decoration: none;
+    background-color: cadetblue;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.975em 2.18em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    animation-name: col;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+@keyframes col {
+    0% {
+        background-color: crimson;
+    }
+
+    100% {
+        transform: translateX(129px);
+        background-color: transparent;
+    }
+}
+
+.mainbutton:hover {
+    animation-play-state: paused;
+}
+
+.socialicons a {
+    color: white;
+    font-size: 1.7em;
+    padding-right: 63px;
+
+}
+
+.socialicons a:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: crimson;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 138px;
+    letter-spacing: 16px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    background-color: gray;
+    width: 21.25em;
+    box-shadow: -15px -18px 20px 2px #dc1439;
+    border-radius: 47px;
+    padding: 21px;
+    margin: 46px;
+    transition: 0.7s ease;
+
+
+}
+
+.card:hover {
+    transform: translate(20px);
+}
+
+.icon {
+    color: crimson;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: crimson;
+    font-size: 4.2em;
+    font-weight: 500;
+    margin: 5px;
+    transition: 1s ease;
+
+}
+
+.band {
+    background-color: black;
+
+}
+
+.band .content {
+    margin-top: 30px;
+}
+
+.pcard {
+    background-color: darkgrey;
+    min-height: 14em;
+    border-radius: 88px;
+    margin: 105px;
+    transition: 0.8s ease;
+    width: 25em;
+    overflow: hidden;
+    animation-name: col;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-timing-function: linear;
+    box-shadow: -15px -18px 20px 2px #dc1439;
+
+
+}
+
+.pcard:hover {
+    animation-play-state: paused;
+    transform: scale(1.2);
+
+}
+
+.pimg img {
+    width: 100%;
+
+
+}
+
+.pcard:hover .pimg {
+    opacity: 0.9;
+
+}
+
+.pinf {
+    padding: 1em;
+
+}
+
+.pcat {
+    font-size: 0.8em;
+    color: white;
+
+}
+
+.ptitle {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 48px;
+    padding: 31px;
+
+}
+
+.more {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.more:hover {
+    color: blue;
+
+}
+
+.contact .icon {
+    font-size: 4.5em;
+}
+
+.contact .icon:hover {
+    transform: translateX(1px);
+}
+
+.contact .info h3 {
+    color: black;
+
+}
+
+.contact .info p {
+    font-size: 1.5em;
+
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 3em;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -15px -18px 20px 2px #dc1439;
+
+}
+
+.footertitle {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+
+.footertitle span {
+    color: white;
+
+}
+
+.footer .socialicons a {
+    font-size: 1.3em;
+    padding-right: 12px;
+
+}
+
+@media (max-width:1023px) {
+    header {
+        padding: 12px 20px;
+    }
+
+
+
+    .navigation a {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1em;
+        font-weight: 200;
+        margin-bottom: 66px;
+        letter-spacing: 6px;
+
+    }
+
+    section {
+        padding: 40px 0px;
+    }
+
+    .main h2 {
+        font-size: 1.4em;
+        padding: 26px;
+    }
+
+    .main h3 {
+        font-size: 1.6em;
+        margin-left: 21px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        padding: 1px;
+        margin: 15px;
+    }
+
+    .pcard {
+        margin: 20px;
+
+    }
+}
+
+@media(max-width:641px) {
+    body {
+        font-size: 12px;
+
+    }
+
+    .main h2 {
+        font-size: 1.4em;
+
+    }
+}
