@@ -288,7 +288,7 @@ section {
 
 
 .footer {
-    background-color: black;
+    background: url(a.jpg) navajowhite;
     color: white;
     padding: 3em;
     display: flex;
