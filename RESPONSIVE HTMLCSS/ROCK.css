@@ -54,7 +54,7 @@ header {
 
 section {
     padding: 100px 83px;
-    background: black;
+    background: url(a.jpg) no-repeat;
     box-shadow: -15px -18px 20px 2px #dc1439;
 }
 
@@ -64,7 +64,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(rr.jpg) no-repeat;
+    background: url(a.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -195,8 +195,7 @@ section {
 }
 
 .band {
-    background-color: black;
-
+    background: url(a.jpg) no-repeat;
 }
 
 .band .content {
