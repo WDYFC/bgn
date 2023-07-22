@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #36384d;
+
+
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 511px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 110px auto;
+    padding: 41px;
+}
+
+
+.infos {
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    color: black;
+    font-family: sans-serif;
+    margin: -12px;
+
+
+
+}
+
+.infos h2 {
+    font-size: 2em;
+    font-weight: bolder;
+    color: #36384d;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.infos h3 {}
+
+
+.infos .updates ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.infos .updates ul li {
+    display: flex;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-top: 17px;
+    text-align: start;
+
+
+
+
+}
+
+.infos .updates i {
+    color: #e57a70;
+    font-size: 1.2em;
+}
+
+.infos .updates p {
+
+    margin: 0 6px;
+}
+
+
+
+.infos .email {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 21px;
+
+
+}
+
+.infos .email label {
+    font-weight: 600;
+    margin-bottom: 22px;
+
+}
+
+.infos .email input {
+
+    width: 100%;
+    height: 50px;
+    color: black;
+    margin-top: 12px;
+    border-radius: 9px;
+    outline: none;
+    border: 0.9px solid gray;
+    padding: 24px;
+
+
+}
+
+.infos .email button {
+    width: 100%;
+    height: 50px;
+    background-color: #232742;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+
+
+}
+
+.img img {
+    width: 100%;
+    border-radius: 26px;
+    margin: 24px;
+}
