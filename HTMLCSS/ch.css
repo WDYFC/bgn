@@ -45,7 +45,7 @@ section {
     margin-bottom: 32px;
 }
 
-.infos h3 {}
+
 
 
 .infos .updates ul {
@@ -86,6 +86,12 @@ section {
     align-items: baseline;
     margin-top: 21px;
 
+
+}
+
+.infos .email :required {
+    background-color: #e57a70;
+    border: 0.8px solid red;
 
 }
 
