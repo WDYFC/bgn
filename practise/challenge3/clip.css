@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Bai Jamjuree", sans-serif;
+
+}
+
+body {
+    background: url(cl.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+    padding: 60px;
+    margin-bottom: 115px;
+}
+
+.icon {
+    background-color: #26bba4;
+    text-align: center;
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+
+}
+
+.his .icon i {
+    color: white;
+    font-size: 10em;
+    font-weight: bold;
+    margin-top: 17px;
+
+
+}
+
+.discription h2 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 27px;
+
+}
+
+.discription p {
+    word-spacing: 1px;
+    text-align: center;
+    opacity: 0.5;
+
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin-left: 5px;
+    box-shadow: inset -1px -4px rgb(1 1 1 / 17%);
+    cursor: pointer;
+}
+
+
+
+button:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.ser p {
+    opacity: 0.5;
+}
+
+.ios {
+    background-color: #26baa4;
+    margin: 9px;
+
+}
+
+.mac {
+    background-color: #5c6df1;
+}
+
+.services {
+    flex-direction: row;
+}
+
+.services .s {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    font-size: 1.2em;
+}
+
+.ser h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.super .t {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.tools img {
+    margin-bottom: 26px;
+}
+
+.tools {
+    text-align: center;
+}
+
+.discription {
+    text-align: center;
+}
+
+.pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.down .buttons {
+    transform: translate(279px, 20px);
+    left: 50px;
+    position: absolute;
+
+
+}
+
+footer {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+
+.socialicons {
+    position: absolute;
+    right: 5px;
+    font-size: 2em;
+    color: #4c545c;
+}
+
+
+footer .icon {
+    background-color: white;
+    text-align: center;
+    width: 54px;
+    height: 52px;
+}
+
+.icon i {
+    color: #26bba4;
+    font-size: 3em;
+
+
+}
+
+.lin {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 4px;
+}
+
+
+.lin a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
